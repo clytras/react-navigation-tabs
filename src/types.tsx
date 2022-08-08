@@ -7,7 +7,6 @@ import {
   ViewStyle,
 } from 'react-native';
 import SafeAreaView from 'react-native-safe-area-view';
-import Animated from 'react-native-reanimated';
 import {
   NavigationRoute,
   NavigationState,
@@ -174,7 +173,7 @@ export type MaterialTabBarProps = MaterialTabBarOptions & {
     width: number;
     height: number;
   };
-  position: Animated.Node<number>;
+  position: number;
   jumpTo: (key: string) => void;
   getLabelText: (scene: {
     route: NavigationRoute;

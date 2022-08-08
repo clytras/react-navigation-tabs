@@ -1,6 +1,5 @@
 import React from 'react';
-import { View, StyleSheet, StyleProp, ViewStyle } from 'react-native';
-import Animated from 'react-native-reanimated';
+import { View, StyleSheet, StyleProp, ViewStyle, Animated } from 'react-native';
 import { NavigationRoute } from 'react-navigation';
 
 type Props = {
