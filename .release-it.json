@@ -5,8 +5,7 @@
   },
   "git": {
     "commitMessage": "chore: release %s",
-    "tagName": "v%s",
-    "requireCleanWorkingDir": false
+    "tagName": "v%s"
   },
   "npm": {
     "publish": true

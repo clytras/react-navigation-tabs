@@ -47,8 +47,7 @@
   "dependencies": {
     "hoist-non-react-statics": "^3.3.0",
     "react-lifecycles-compat": "^3.0.4",
-    "react-native-safe-area-view": "^0.14.6",
-    "react-native-tab-view": "^2.11.0"
+    "react-native-safe-area-view": "^0.14.6"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^7.5.0",
@@ -85,12 +84,6 @@
     "react-native-gesture-handler": "^1.0.0",
     "react-native-screens": "^1.0.0 || ^1.0.0-alpha",
     "react-navigation": "^4.0.7"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "yarn lint && yarn flow check"
-    }
   },
   "jest": {
     "preset": "react-native",
