@@ -5,12 +5,13 @@
   },
   "git": {
     "commitMessage": "chore: release %s",
-    "tagName": "v%s"
+    "tagName": "v%s",
+    "requireCleanWorkingDir": false
   },
   "npm": {
     "publish": true
   },
   "github": {
-    "release": true
+    "release": false
   }
 }
