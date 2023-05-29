@@ -134,11 +134,13 @@ class MaterialTabView extends React.PureComponent<Props> {
         renderTabBar={this.renderTabBar}
         renderLazyPlaceholder={
           lazyPlaceholderComponent !== undefined
+            // @ts-ignore
             ? props => React.createElement(lazyPlaceholderComponent, props)
             : undefined
         }
         renderPager={
           pagerComponent !== undefined
+            // @ts-ignore
             ? props => React.createElement(pagerComponent, props)
             : undefined
         }
